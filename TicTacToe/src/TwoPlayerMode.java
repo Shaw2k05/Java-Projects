@@ -97,12 +97,12 @@ public class TwoPlayerMode extends Component implements ActionListener, WindowLi
 
     public void firstTurn() {
 
-        try {
-            Thread.sleep(1500);
-        } catch (InterruptedException e) {
-
-            e.printStackTrace();
-        }
+        //try {
+        //    Thread.sleep(1500);
+        //} catch (InterruptedException e) {
+        //
+        //    e.printStackTrace();
+        //}
 
         if(random.nextInt(2) == 0) {
 
@@ -271,12 +271,12 @@ public class TwoPlayerMode extends Component implements ActionListener, WindowLi
 
     public void replay() {
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-
-            e.printStackTrace();
-        }
+        //try {
+        //    Thread.sleep(1000);
+        //} catch (InterruptedException e) {
+        //
+        //    e.printStackTrace();
+        //}
 
         String[] responses = {"Play again", "Go back to title screen"};
 
